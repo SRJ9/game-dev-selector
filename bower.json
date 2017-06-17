@@ -1,0 +1,23 @@
+{
+  "name": "game-dev-selector",
+  "description": "Selecciona las mejores combinaciones para Game Dev Tycoon",
+  "main": "index.js",
+  "authors": [
+    "Jose E.R <srj9es@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "game",
+    "dev",
+    "tycoon"
+  ],
+  "homepage": "https://github.com/SRJ9/game-dev-selector",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
