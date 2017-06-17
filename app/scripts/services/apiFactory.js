@@ -8,6 +8,11 @@ angular.module("apiFactory", [])
             return $http.get(url);
         };
 
+        API.getConsola = function () {
+            var url = '/consola_values.json';
+            return $http.get(url);
+        };
+
         return API;
 
     });

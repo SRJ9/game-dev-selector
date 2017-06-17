@@ -4,15 +4,38 @@
     <meta charset="UTF-8">
     <title>Game Dev Selector</title>
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body ng-app="gameDevApp">
-Game Dev Selector
-<div class="content" ng-controller="gameDevController">
-    <ul ng-if="publicos">
-        <li ng-repeat="publico in publicos">
-            {{publico.nombre}}
-        </li>
-    </ul>
+
+<div class="container" ng-controller="gameDevController">
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Game Dev Selector</a>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-6">
+            <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
+            <h2>Público objetivo</h2>
+            <ul ng-if="publicos">
+                <li ng-repeat="publico in publicos">
+                    {{publico.nombre}}
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
+            <h2>Videoconsola</h2>
+            <ul ng-if="consolas">
+                <li ng-repeat="consola in consolas">
+                    {{consola.nombre}}
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
 
 
