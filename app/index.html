@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Game Dev Selector</title>
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/angular-ui-select/dist/select.css" rel="stylesheet">
+    <link href="bower_components/selectize/dist/css/selectize.css" rel="stylesheet"/>
     <link href="bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body ng-app="gameDevApp">
@@ -19,21 +21,26 @@
     <div class="row">
         <div class="col-md-6">
             <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
-            <h2>Público objetivo</h2>
-            <ul ng-if="publicos">
-                <li ng-repeat="publico in publicos">
-                    {{publico.nombre}}
-                </li>
-            </ul>
+            <h2>Público objetivo: {{game_params.publico.nombre}}</h2>
+            <ui-select ng-model="game_params.publico" theme="selectize" title="Elige un público objetivo">
+                <ui-select-match placeholder="Elige un público objetivo de la lista...">{{$select.selected.nombre}}
+                </ui-select-match>
+                <ui-select-choices repeat="item in publicos | filter: $select.search">
+                    <div ng-bind-html="item.nombre | highlight: $select.search"></div>
+                </ui-select-choices>
+            </ui-select>
         </div>
         <div class="col-md-6">
             <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
             <h2>Videoconsola</h2>
-            <ul ng-if="consolas">
-                <li ng-repeat="consola in consolas">
-                    {{consola.nombre}}
-                </li>
-            </ul>
+            <ui-select ng-model="game_params.consola" theme="selectize" title="Elige una consola">
+                <ui-select-match placeholder="Elige una consola de la lista...">{{$select.selected.nombre}}
+                </ui-select-match>
+                <ui-select-choices repeat="item in consolas | filter: $select.search">
+                    <span ng-bind-html="item.nombre | highlight: $select.search"></span>
+                    <small class="badge" ng-if="game_params.publico">{{getPublicoConsola(item)}}</small>
+                </ui-select-choices>
+            </ui-select>
         </div>
     </div>
 </div>
@@ -42,6 +49,10 @@
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-ui-select/dist/select.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/microplugin/src/microplugin.js"></script>
+<script src="bower_components/selectize/dist/js/selectize.js"></script>
 <script src="scripts/services/apiFactory.js"></script>
 <script src="scripts/selector.js"></script>
 </body>

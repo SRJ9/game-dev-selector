@@ -1,7 +1,8 @@
-var app = angular.module("gameDevApp", ['apiFactory']);
+var app = angular.module("gameDevApp", ['apiFactory', 'ui.select', 'ngSanitize']);
 
 app.controller("gameDevController", function ($scope, API) {
     'use strict'
+    $scope.game_params = {};
     API.getPublico().then(function (response) {
         $scope.publicos = response.data;
     }, function (err) {
@@ -13,4 +14,13 @@ app.controller("gameDevController", function ($scope, API) {
     }, function (err) {
         $scope.err = err;
     });
+
+    $scope.getPublicoConsola = function(consola){
+        if($scope.game_params.publico){
+            var publico = $scope.game_params.publico.nombre.toLowerCase();
+            return consola.publico[publico];
+        }
+        return null;
+
+    };
 });
