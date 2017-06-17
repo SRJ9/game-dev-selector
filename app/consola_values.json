@@ -1,86 +1,450 @@
 [
   {
-    "nombre": "G64"
+    "nombre": "PC",
+    "tipo": {
+      "accion": 2,
+      "aventura": 3,
+      "rol": 2,
+      "simulacion": 3,
+      "estrategia": 3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 2,
+      "adultos": 3
+    }
   },
   {
-    "nombre": "PC"
+    "nombre": "G64",
+    "tipo": {
+      "accion": 2,
+      "aventura": 3,
+      "rol": 2,
+      "simulacion": 2,
+      "estrategia": 3,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 2,
+      "adultos": 3
+    }
   },
   {
-    "nombre": "TES"
+    "nombre": "TES",
+    "tipo": {
+      "accion": 1,
+      "aventura": -2,
+      "rol": 1,
+      "simulacion": 1,
+      "estrategia": -2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 2,
+      "adultos": 3
+    }
   },
   {
-    "nombre": "Master V"
+    "nombre": "Master V",
+    "tipo": {
+      "accion": 2,
+      "aventura": -2,
+      "rol": 1,
+      "simulacion": 1,
+      "estrategia": -2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 2
+    }
   },
   {
-    "nombre": "Gameling"
+    "nombre": "Gameling",
+    "tipo": {
+      "accion": 1,
+      "aventura": -2,
+      "rol": 2,
+      "simulacion": 2,
+      "estrategia": -3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 2,
+      "adultos": 3
+    }
   },
   {
-    "nombre": "Vena Gear"
+    "nombre": "Vena Gear",
+    "tipo": {
+      "accion": 2,
+      "aventura": 1,
+      "rol": 1,
+      "simulacion": 2,
+      "estrategia": -3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 1
+    }
   },
   {
-    "nombre": "Vena Oasis"
+    "nombre": "Vena Oasis",
+    "tipo": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": 1,
+      "simulacion": 2,
+      "estrategia": -3,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 2
+    }
   },
   {
-    "nombre": "Super TES"
+    "nombre": "Super TES",
+    "tipo": {
+      "accion": 2,
+      "aventura": 2,
+      "rol": 2,
+      "simulacion": 3,
+      "estrategia": -2,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 2,
+      "adultos": 2
+    }
   },
   {
-    "nombre": "Playsystem"
+    "nombre": "Playsystem",
+    "tipo": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": 3,
+      "simulacion": 2,
+      "estrategia": -2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 2
+    }
   },
   {
-    "nombre": "TES 64"
+    "nombre": "TES64",
+    "tipo": {
+      "accion": 2,
+      "aventura": 1,
+      "rol": -2,
+      "simulacion": 1,
+      "estrategia": -2,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 2,
+      "adultos": 2
+    }
   },
   {
-    "nombre": "DreamVast"
+    "nombre": "DreamVast",
+    "tipo": {
+      "accion": 3,
+      "aventura": -2,
+      "rol": 1,
+      "simulacion": 3,
+      "estrategia": -2,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": -1,
+      "todos": 3,
+      "adultos": 3
+    }
   },
   {
-    "nombre": "Playsystem 2"
+    "nombre": "Playsystem 2",
+    "tipo": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": 3,
+      "simulacion": 2,
+      "estrategia": -2,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 1
+    }
   },
   {
-    "nombre": "mBox"
+    "nombre": "mBox",
+    "tipo": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": 2,
+      "simulacion": 2,
+      "estrategia": -2,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 2
+    }
   },
   {
-    "nombre": "Game Sphere"
+    "nombre": "Game Sphere",
+    "tipo": {
+      "accion": 1,
+      "aventura": 1,
+      "rol": -2,
+      "simulacion": 1,
+      "estrategia": -2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 2,
+      "adultos": 1
+    }
   },
   {
-    "nombre": "GS"
+    "nombre": "GS",
+    "tipo": {
+      "accion": 2,
+      "aventura": 2,
+      "rol": 3,
+      "simulacion": 2,
+      "estrategia": 2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 2,
+      "adultos": 1
+    }
   },
   {
-    "nombre": "PPS"
+    "nombre": "PPS",
+    "tipo": {
+      "accion": 3,
+      "aventura": -2,
+      "rol": 3,
+      "simulacion": 1,
+      "estrategia": 1,
+      "casual": 1
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 2,
+      "adultos": 3
+    }
   },
   {
-    "nombre": "mBox 360"
+    "nombre": "MBox 360",
+    "tipo": {
+      "accion": 3,
+      "aventura": 2,
+      "rol": 3,
+      "simulacion": 2,
+      "estrategia": -2,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 2,
+      "adultos": 3
+    }
   },
   {
-    "nombre": "Nuu"
+    "nombre": "Nuu",
+    "tipo": {
+      "accion": 1,
+      "aventura": -3,
+      "rol": -2,
+      "simulacion": 3,
+      "estrategia": -2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 3,
+      "adultos": 2
+    }
   },
   {
-    "nombre": "Playsystem 3"
+    "nombre": "Playsystem 3",
+    "tipo": {
+      "accion": 3,
+      "aventura": 2,
+      "rol": 2,
+      "simulacion": 3,
+      "estrategia": -2,
+      "casual": 1
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 2
+    }
   },
   {
-    "nombre": "grPhone"
+    "nombre": "grPhone",
+    "tipo": {
+      "accion": 1,
+      "aventura": 1,
+      "rol": -2,
+      "simulacion": 2,
+      "estrategia": -2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 3
+    }
   },
   {
-    "nombre": "grPad"
+    "nombre": "grPad",
+    "tipo": {
+      "accion": 1,
+      "aventura": 2,
+      "rol": -2,
+      "simulacion": 2,
+      "estrategia": 2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 3
+    }
   },
   {
-    "nombre": "mPad"
+    "nombre": "mPad",
+    "tipo": {
+      "accion": -2,
+      "aventura": 2,
+      "rol": 1,
+      "simulacion": 2,
+      "estrategia": -2,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": -1,
+      "todos": 2,
+      "adultos": 1
+    }
   },
   {
-    "nombre": "Wuu"
+    "nombre": "Wuu",
+    "tipo": {
+      "accion": 2,
+      "aventura": -2,
+      "rol": 1,
+      "simulacion": 3,
+      "estrategia": -2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 2
+    }
   },
   {
-    "nombre": "OYA"
+    "nombre": "OYA",
+    "tipo": {
+      "accion": 2,
+      "aventura": -2,
+      "rol": 1,
+      "simulacion": 2,
+      "estrategia": 1,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 2
+    }
   },
   {
-    "nombre": "mBox One"
+    "nombre": "mBox One",
+    "tipo": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": 2,
+      "simulacion": 2,
+      "estrategia": -2,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": -2,
+      "todos": 3,
+      "adultos": 1
+    }
   },
   {
-    "nombre": "Playsystem 4"
+    "nombre": "Playsystem 4",
+    "tipo": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": 3,
+      "simulacion": 2,
+      "estrategia": -2,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 2
+    }
   },
   {
-    "nombre": "mBox next"
+    "nombre": "mBox Next",
+    "tipo": {
+      "accion": 2,
+      "aventura": 2,
+      "rol": 2,
+      "simulacion": 1,
+      "estrategia": -2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 1
+    }
   },
   {
-    "nombre": "Playsystem 5"
+    "nombre": "Playsystem 5",
+    "tipo": {
+      "accion": 3,
+      "aventura": -2,
+      "rol": 2,
+      "simulacion": 3,
+      "estrategia": -2,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 2
+    }
   }
 ]
