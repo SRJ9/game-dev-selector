@@ -15,10 +15,24 @@ app.controller("gameDevController", function ($scope, API) {
         $scope.err = err;
     });
 
-    $scope.getPublicoConsola = function(consola){
-        if($scope.game_params.publico){
+    API.getGenero().then(function (response) {
+        $scope.generos = response.data;
+    }, function (err) {
+        $scope.err = err;
+    });
+
+    $scope.getPublicoConsola = function (consola) {
+        if ($scope.game_params.publico) {
             var publico = $scope.game_params.publico.nombre.toLowerCase();
             return consola.publico[publico];
+        }
+        return null;
+
+    };
+
+    $scope.getConsolaGenero = function (genero) {
+        if ($scope.game_params.consola) {
+            return $scope.game_params.consola.genero[genero.nombre.toLowerCase()];
         }
         return null;
 

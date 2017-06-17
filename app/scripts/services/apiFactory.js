@@ -13,6 +13,11 @@ angular.module("apiFactory", [])
             return $http.get(url);
         };
 
+        API.getGenero = function () {
+            var url = '/genero_values.json';
+            return $http.get(url);
+        };
+
         return API;
 
     });

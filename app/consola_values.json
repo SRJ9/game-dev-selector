@@ -1,7 +1,7 @@
 [
   {
     "nombre": "PC",
-    "tipo": {
+    "genero": {
       "accion": 2,
       "aventura": 3,
       "rol": 2,
@@ -17,7 +17,7 @@
   },
   {
     "nombre": "G64",
-    "tipo": {
+    "genero": {
       "accion": 2,
       "aventura": 3,
       "rol": 2,
@@ -33,7 +33,7 @@
   },
   {
     "nombre": "TES",
-    "tipo": {
+    "genero": {
       "accion": 1,
       "aventura": -2,
       "rol": 1,
@@ -49,7 +49,7 @@
   },
   {
     "nombre": "Master V",
-    "tipo": {
+    "genero": {
       "accion": 2,
       "aventura": -2,
       "rol": 1,
@@ -65,7 +65,7 @@
   },
   {
     "nombre": "Gameling",
-    "tipo": {
+    "genero": {
       "accion": 1,
       "aventura": -2,
       "rol": 2,
@@ -81,7 +81,7 @@
   },
   {
     "nombre": "Vena Gear",
-    "tipo": {
+    "genero": {
       "accion": 2,
       "aventura": 1,
       "rol": 1,
@@ -97,7 +97,7 @@
   },
   {
     "nombre": "Vena Oasis",
-    "tipo": {
+    "genero": {
       "accion": 3,
       "aventura": 1,
       "rol": 1,
@@ -113,7 +113,7 @@
   },
   {
     "nombre": "Super TES",
-    "tipo": {
+    "genero": {
       "accion": 2,
       "aventura": 2,
       "rol": 2,
@@ -129,7 +129,7 @@
   },
   {
     "nombre": "Playsystem",
-    "tipo": {
+    "genero": {
       "accion": 3,
       "aventura": 1,
       "rol": 3,
@@ -145,7 +145,7 @@
   },
   {
     "nombre": "TES64",
-    "tipo": {
+    "genero": {
       "accion": 2,
       "aventura": 1,
       "rol": -2,
@@ -161,7 +161,7 @@
   },
   {
     "nombre": "DreamVast",
-    "tipo": {
+    "genero": {
       "accion": 3,
       "aventura": -2,
       "rol": 1,
@@ -177,7 +177,7 @@
   },
   {
     "nombre": "Playsystem 2",
-    "tipo": {
+    "genero": {
       "accion": 3,
       "aventura": 1,
       "rol": 3,
@@ -193,7 +193,7 @@
   },
   {
     "nombre": "mBox",
-    "tipo": {
+    "genero": {
       "accion": 3,
       "aventura": 1,
       "rol": 2,
@@ -209,7 +209,7 @@
   },
   {
     "nombre": "Game Sphere",
-    "tipo": {
+    "genero": {
       "accion": 1,
       "aventura": 1,
       "rol": -2,
@@ -225,7 +225,7 @@
   },
   {
     "nombre": "GS",
-    "tipo": {
+    "genero": {
       "accion": 2,
       "aventura": 2,
       "rol": 3,
@@ -241,7 +241,7 @@
   },
   {
     "nombre": "PPS",
-    "tipo": {
+    "genero": {
       "accion": 3,
       "aventura": -2,
       "rol": 3,
@@ -257,7 +257,7 @@
   },
   {
     "nombre": "MBox 360",
-    "tipo": {
+    "genero": {
       "accion": 3,
       "aventura": 2,
       "rol": 3,
@@ -273,7 +273,7 @@
   },
   {
     "nombre": "Nuu",
-    "tipo": {
+    "genero": {
       "accion": 1,
       "aventura": -3,
       "rol": -2,
@@ -289,7 +289,7 @@
   },
   {
     "nombre": "Playsystem 3",
-    "tipo": {
+    "genero": {
       "accion": 3,
       "aventura": 2,
       "rol": 2,
@@ -305,7 +305,7 @@
   },
   {
     "nombre": "grPhone",
-    "tipo": {
+    "genero": {
       "accion": 1,
       "aventura": 1,
       "rol": -2,
@@ -321,7 +321,7 @@
   },
   {
     "nombre": "grPad",
-    "tipo": {
+    "genero": {
       "accion": 1,
       "aventura": 2,
       "rol": -2,
@@ -337,7 +337,7 @@
   },
   {
     "nombre": "mPad",
-    "tipo": {
+    "genero": {
       "accion": -2,
       "aventura": 2,
       "rol": 1,
@@ -353,7 +353,7 @@
   },
   {
     "nombre": "Wuu",
-    "tipo": {
+    "genero": {
       "accion": 2,
       "aventura": -2,
       "rol": 1,
@@ -369,7 +369,7 @@
   },
   {
     "nombre": "OYA",
-    "tipo": {
+    "genero": {
       "accion": 2,
       "aventura": -2,
       "rol": 1,
@@ -385,7 +385,7 @@
   },
   {
     "nombre": "mBox One",
-    "tipo": {
+    "genero": {
       "accion": 3,
       "aventura": 1,
       "rol": 2,
@@ -401,7 +401,7 @@
   },
   {
     "nombre": "Playsystem 4",
-    "tipo": {
+    "genero": {
       "accion": 3,
       "aventura": 1,
       "rol": 3,
@@ -417,7 +417,7 @@
   },
   {
     "nombre": "mBox Next",
-    "tipo": {
+    "genero": {
       "accion": 2,
       "aventura": 2,
       "rol": 2,
@@ -433,7 +433,7 @@
   },
   {
     "nombre": "Playsystem 5",
-    "tipo": {
+    "genero": {
       "accion": 3,
       "aventura": -2,
       "rol": 2,
