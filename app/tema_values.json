@@ -1,0 +1,818 @@
+[
+  {
+    "nombre": "Avión",
+    "genero": {
+      "accion": 3,
+      "aventura": -3,
+      "rol": 1,
+      "simulacion": 3,
+      "estrategia": 3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 3,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "Aliens",
+    "genero": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": 3,
+      "simulacion": -3,
+      "estrategia": 2,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Historia Alternativa",
+    "genero": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": 3,
+      "simulacion": 1,
+      "estrategia": 2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": -3,
+      "todos": 3,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Negocios",
+    "genero": {
+      "accion": -3,
+      "aventura": 1,
+      "rol": 1,
+      "simulacion": 3,
+      "estrategia": 3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "Ciudad",
+    "genero": {
+      "accion": -2,
+      "aventura": -3,
+      "rol": -2,
+      "simulacion": 3,
+      "estrategia": 3,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 1
+    }
+  },
+  {
+    "nombre": "Comedia",
+    "genero": {
+      "accion": -3,
+      "aventura": 3,
+      "rol": 1,
+      "simulacion": -3,
+      "estrategia": -3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 2,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Cyberpunk",
+    "genero": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": 3,
+      "simulacion": 1,
+      "estrategia": -2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": -2,
+      "todos": 2,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Baile",
+    "genero": {
+      "accion": -2,
+      "aventura": -3,
+      "rol": -3,
+      "simulacion": 3,
+      "estrategia": -3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 2,
+      "adultos": 1
+    }
+  },
+  {
+    "nombre": "Detective",
+    "genero": {
+      "accion": -3,
+      "aventura": 3,
+      "rol": 3,
+      "simulacion": 1,
+      "estrategia": -3,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 1
+    }
+  },
+  {
+    "nombre": "Mazmorras",
+    "genero": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": 3,
+      "simulacion": 3,
+      "estrategia": 3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Evolución",
+    "genero": {
+      "accion": -2,
+      "aventura": -3,
+      "rol": -3,
+      "simulacion": 3,
+      "estrategia": 3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "Fantasía",
+    "genero": {
+      "accion": 3,
+      "aventura": 3,
+      "rol": 3,
+      "simulacion": 1,
+      "estrategia": 3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 3,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Moda",
+    "genero": {
+      "accion": -3,
+      "aventura": 1,
+      "rol": 3,
+      "simulacion": 3,
+      "estrategia": -3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 1,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Desarrollo de juegos",
+    "genero": {
+      "accion": -3,
+      "aventura": -2,
+      "rol": -3,
+      "simulacion": 3,
+      "estrategia": -3,
+      "casual": 1
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "Gobierno",
+    "genero": {
+      "accion": -3,
+      "aventura": -3,
+      "rol": -3,
+      "simulacion": 3,
+      "estrategia": 3,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": -3,
+      "todos": 3,
+      "adultos": 1
+    }
+  },
+  {
+    "nombre": "Hackers",
+    "genero": {
+      "accion": -2,
+      "aventura": 1,
+      "rol": -2,
+      "simulacion": 3,
+      "estrategia": 3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": -2,
+      "todos": 2,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Historia",
+    "genero": {
+      "accion": 1,
+      "aventura": 1,
+      "rol": 1,
+      "simulacion": 3,
+      "estrategia": 3,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "Terror",
+    "genero": {
+      "accion": 3,
+      "aventura": 3,
+      "rol": 1,
+      "simulacion": -3,
+      "estrategia": -2,
+      "casual": 1
+    },
+    "publico": {
+      "jovenes": -3,
+      "todos": 2,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Hospital",
+    "genero": {
+      "accion": -3,
+      "aventura": -3,
+      "rol": 1,
+      "simulacion": 3,
+      "estrategia": 1,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": -2,
+      "todos": 3,
+      "adultos": 1
+    }
+  },
+  {
+    "nombre": "Caza",
+    "genero": {
+      "accion": 3,
+      "aventura": 2,
+      "rol": 2,
+      "simulacion": 3,
+      "estrategia": -2,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "Ley",
+    "genero": {
+      "accion": -3,
+      "aventura": 3,
+      "rol": 2,
+      "simulacion": 2,
+      "estrategia": 2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "Vida",
+    "genero": {
+      "accion": -3,
+      "aventura": 3,
+      "rol": 2,
+      "simulacion": 3,
+      "estrategia": -3,
+      "casual": 1
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 3,
+      "adultos": 1
+    }
+  },
+  {
+    "nombre": "Artes marciales",
+    "genero": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": 3,
+      "simulacion": 3,
+      "estrategia": -2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": -2,
+      "todos": 2,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Medieval",
+    "genero": {
+      "accion": 3,
+      "aventura": 3,
+      "rol": 3,
+      "simulacion": 1,
+      "estrategia": 3,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 3,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "Militar",
+    "genero": {
+      "accion": 3,
+      "aventura": -3,
+      "rol": 1,
+      "simulacion": 3,
+      "estrategia": 3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": -2,
+      "todos": 2,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Películas",
+    "genero": {
+      "accion": 1,
+      "aventura": 1,
+      "rol": -3,
+      "simulacion": 3,
+      "estrategia": -3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "Música",
+    "genero": {
+      "accion": 3,
+      "aventura": 2,
+      "rol": -3,
+      "simulacion": 3,
+      "estrategia": -3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 2,
+      "adultos": 1
+    }
+  },
+  {
+    "nombre": "Misterio",
+    "genero": {
+      "accion": -3,
+      "aventura": 3,
+      "rol": 3,
+      "simulacion": 1,
+      "estrategia": -3,
+      "casual": 1
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 2,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Ninja",
+    "genero": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": 1,
+      "simulacion": -3,
+      "estrategia": 1,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 2,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "Piratas",
+    "genero": {
+      "accion": 1,
+      "aventura": 3,
+      "rol": 2,
+      "simulacion": 2,
+      "estrategia": -2,
+      "casual": 1
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 3,
+      "adultos": 1
+    }
+  },
+  {
+    "nombre": "Post Apocalipsis",
+    "genero": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": 3,
+      "simulacion": -3,
+      "estrategia": 2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": -3,
+      "todos": 2,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Carcel",
+    "genero": {
+      "accion": 3,
+      "aventura": 3,
+      "rol": 1,
+      "simulacion": 3,
+      "estrategia": 1,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": -2,
+      "todos": 2,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Carreras",
+    "genero": {
+      "accion": 2,
+      "aventura": -3,
+      "rol": 1,
+      "simulacion": 3,
+      "estrategia": -2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 3,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "Ritmo",
+    "genero": {
+      "accion": 3,
+      "aventura": -2,
+      "rol": -2,
+      "simulacion": 3,
+      "estrategia": -3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 2,
+      "adultos": 1
+    }
+  },
+  {
+    "nombre": "Romance",
+    "genero": {
+      "accion": -3,
+      "aventura": 3,
+      "rol": 1,
+      "simulacion": 2,
+      "estrategia": -3,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Escuela",
+    "genero": {
+      "accion": 1,
+      "aventura": 3,
+      "rol": 3,
+      "simulacion": 3,
+      "estrategia": 3,
+      "casual": 1
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 2,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "Ciencia ficción",
+    "genero": {
+      "accion": 3,
+      "aventura": 3,
+      "rol": 3,
+      "simulacion": 3,
+      "estrategia": 3,
+      "casual": 1
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Espacio",
+    "genero": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": -3,
+      "simulacion": 3,
+      "estrategia": 3,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Deportes",
+    "genero": {
+      "accion": 3,
+      "aventura": -3,
+      "rol": -3,
+      "simulacion": 3,
+      "estrategia": -2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 3,
+      "adultos": 1
+    }
+  },
+  {
+    "nombre": "Espías",
+    "genero": {
+      "accion": 3,
+      "aventura": 3,
+      "rol": 3,
+      "simulacion": 1,
+      "estrategia": -2,
+      "casual": 1
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 2,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Superheroes",
+    "genero": {
+      "accion": 3,
+      "aventura": -3,
+      "rol": 2,
+      "simulacion": -3,
+      "estrategia": -3,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 3,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Cirugía",
+    "genero": {
+      "accion": 1,
+      "aventura": -2,
+      "rol": -3,
+      "simulacion": 3,
+      "estrategia": -2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "Viajes en el tiempo",
+    "genero": {
+      "accion": 2,
+      "aventura": 3,
+      "rol": 3,
+      "simulacion": -2,
+      "estrategia": -3,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 1
+    }
+  },
+  {
+    "nombre": "Transporte",
+    "genero": {
+      "accion": -3,
+      "aventura": -3,
+      "rol": -3,
+      "simulacion": 3,
+      "estrategia": 3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "OVNI",
+    "genero": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": -3,
+      "simulacion": 1,
+      "estrategia": 3,
+      "casual": 1
+    },
+    "publico": {
+      "jovenes": 1,
+      "todos": 3,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "Vampiros",
+    "genero": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": 3,
+      "simulacion": -3,
+      "estrategia": -3,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": -2,
+      "todos": 3,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Mascotas",
+    "genero": {
+      "accion": -3,
+      "aventura": 1,
+      "rol": 2,
+      "simulacion": 3,
+      "estrategia": 2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 1,
+      "adultos": 2
+    }
+  },
+  {
+    "nombre": "Vocabulario",
+    "genero": {
+      "accion": -3,
+      "aventura": -3,
+      "rol": -3,
+      "simulacion": 3,
+      "estrategia": 3,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 3,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Hombres lobo",
+    "genero": {
+      "accion": 3,
+      "aventura": 1,
+      "rol": 3,
+      "simulacion": -3,
+      "estrategia": -3,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": -2,
+      "todos": 2,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Salvaje Oeste",
+    "genero": {
+      "accion": 2,
+      "aventura": -2,
+      "rol": 3,
+      "simulacion": -3,
+      "estrategia": -3,
+      "casual": 2
+    },
+    "publico": {
+      "jovenes": 3,
+      "todos": 2,
+      "adultos": 3
+    }
+  },
+  {
+    "nombre": "Zombies",
+    "genero": {
+      "accion": 3,
+      "aventura": 2,
+      "rol": -3,
+      "simulacion": -3,
+      "estrategia": 2,
+      "casual": 3
+    },
+    "publico": {
+      "jovenes": 2,
+      "todos": 1,
+      "adultos": 3
+    }
+  }
+]

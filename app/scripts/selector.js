@@ -21,6 +21,12 @@ app.controller("gameDevController", function ($scope, API) {
         $scope.err = err;
     });
 
+    API.getTema().then(function (response) {
+        $scope.temas = response.data;
+    }, function (err) {
+        $scope.err = err;
+    });
+
     $scope.getPublicoConsola = function (consola) {
         if ($scope.game_params.publico) {
             var publico = $scope.game_params.publico.nombre.toLowerCase();
@@ -33,6 +39,15 @@ app.controller("gameDevController", function ($scope, API) {
     $scope.getConsolaGenero = function (genero) {
         if ($scope.game_params.consola) {
             return $scope.game_params.consola.genero[genero.nombre.toLowerCase()];
+        }
+        return null;
+
+    };
+
+    $scope.getGeneroTema = function (tema) {
+        if ($scope.game_params.genero) {
+            var genero = $scope.game_params.genero.nombre.toLowerCase();
+            return tema.genero[genero];
         }
         return null;
 

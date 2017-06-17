@@ -18,6 +18,11 @@ angular.module("apiFactory", [])
             return $http.get(url);
         };
 
+        API.getTema = function () {
+            var url = '/tema_values.json';
+            return $http.get(url);
+        };
+
         return API;
 
     });
