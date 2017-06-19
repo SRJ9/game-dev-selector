@@ -1,6 +1,5 @@
-var app = angular.module("gameDevApp", ['apiFactory', 'ui.select', 'ngSanitize']);
-
-app.controller("gameDevController", function ($scope, API) {
+var app = angular.module("gameDevApp", ['apiFactory', 'ui.select', 'ngSanitize', 'selectDirective']);
+app.controller("GameDevController", function ($scope, API) {
     'use strict'
     $scope.game_params = {};
     API.getPublico().then(function (response) {

@@ -10,7 +10,7 @@
 </head>
 <body ng-app="gameDevApp">
 
-<div class="container" ng-controller="gameDevController">
+<div class="container" ng-controller="GameDevController">
     <nav class="navbar navbar-inverse navbar-static-top">
         <div class="container">
             <div class="navbar-header">
@@ -19,62 +19,46 @@
         </div>
     </nav>
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6">
             <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
-            <h2>Público objetivo: {{game_params.publico.nombre}}</h2>
-            <ui-select ng-model="game_params.publico" theme="selectize" title="Elige un público objetivo">
-                <ui-select-match placeholder="Elige un público objetivo de la lista...">{{$select.selected.nombre}}
-                </ui-select-match>
-                <ui-select-choices repeat="item in publicos | filter: $select.search">
-                    <div ng-bind-html="item.nombre | highlight: $select.search"></div>
-                </ui-select-choices>
-            </ui-select>
+            <h2 title="{{game_params.publico.nombre}}">Público objetivo</h2>
+            <param-selector
+                    match-placeholder="Elige un público objetivo de la lista..."
+                    param-title="Elige un público objetivo"
+                    param-value="game_params.publico"
+                    items="publicos"
+            ></param-selector>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6">
             <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
-            <h2>Videoconsola</h2>
-            <ui-select ng-model="game_params.consola" theme="selectize" title="Elige una consola">
-                <ui-select-match placeholder="Elige una consola de la lista...">{{$select.selected.nombre}}
-                    <small class="badge" ng-if="$select.selected && game_params.publico">
-                        {{getPublicoConsola($select.selected)}}
-                    </small>
-                </ui-select-match>
-                <ui-select-choices repeat="item in consolas | filter: $select.search">
-                    <span ng-bind-html="item.nombre | highlight: $select.search"></span>
-                    <small class="badge" ng-if="game_params.publico">{{getPublicoConsola(item)}}</small>
-                </ui-select-choices>
-            </ui-select>
+            <h2 title="{{game_params.consola.nombre}}">Videoconsola</h2>
+            <param-selector
+                    match-placeholder="Elige una consola de la lista..."
+                    param-title="Elige una consola"
+                    param-value="game_params.consola"
+                    items="consolas"
+            ></param-selector>
 
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6">
             <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
-            <h2>Genero</h2>
-            <ui-select ng-model="game_params.genero" theme="selectize" title="Elige un genero">
-                <ui-select-match placeholder="Elige un genero de la lista...">{{$select.selected.nombre}}
-                    <small class="badge" ng-if="$select.selected && game_params.consola">
-                        {{getConsolaGenero($select.selected)}}
-                    </small>
-                </ui-select-match>
-                <ui-select-choices repeat="item in generos | filter: $select.search">
-                    <span ng-bind-html="item.nombre | highlight: $select.search"></span>
-                    <small class="badge" ng-if="game_params.consola">{{getConsolaGenero(item)}}</small>
-                </ui-select-choices>
-            </ui-select>
+            <h2 title="{{game_params.genero.nombre}}">Genero</h2>
+            <param-selector
+                    match-placeholder="Elige un genero de la lista..."
+                    param-title="Elige un genero"
+                    param-value="game_params.genero"
+                    items="generos"
+            ></param-selector>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6">
             <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
-            <h2>Tema</h2>
-            <ui-select ng-model="game_params.tema" theme="selectize" title="Elige un tema">
-                <ui-select-match placeholder="Elige un tema de la lista...">{{$select.selected.nombre}}
-                    <small class="badge" ng-if="$select.selected && game_params.genero">
-                        {{getGeneroTema($select.selected)}}
-                    </small>
-                </ui-select-match>
-                <ui-select-choices repeat="item in temas | filter: $select.search">
-                    <span ng-bind-html="item.nombre | highlight: $select.search"></span>
-                    <small class="badge" ng-if="game_params.genero">{{getGeneroTema(item)}}</small>
-                </ui-select-choices>
-            </ui-select>
+            <h2 title="{{game_params.tema.nombre}}">Tema</h2>
+            <param-selector
+                    match-placeholder="Elige un tema de la lista..."
+                    param-title="Elige un tema"
+                    param-value="game_params.tema"
+                    items="temas"
+            ></param-selector>
         </div>
     </div>
 </div>
@@ -88,6 +72,7 @@
 <script src="bower_components/microplugin/src/microplugin.js"></script>
 <script src="bower_components/selectize/dist/js/selectize.js"></script>
 <script src="scripts/services/apiFactory.js"></script>
+<script src="scripts/directives/select.js"></script>
 <script src="scripts/selector.js"></script>
 </body>
 </html>

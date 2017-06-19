@@ -1,0 +1,9 @@
+<div ng-controller="ParamSelectorController">
+<ui-select ng-model="scope.paramValue" theme="selectize" title="{{paramTitle}}">
+    <ui-select-match placeholder="{{matchPlaceholder}}">{{$select.selected.nombre}}
+    </ui-select-match>
+    <ui-select-choices repeat="item in items | filter: $select.search">
+        <div ng-bind-html="item.nombre | highlight: $select.search"></div>
+    </ui-select-choices>
+</ui-select>
+</div>
