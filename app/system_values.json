@@ -1,7 +1,7 @@
 [
   {
-    "nombre": "PC",
-    "genero": {
+    "name": "PC",
+    "genre": {
       "accion": 2,
       "aventura": 3,
       "rol": 2,
@@ -9,15 +9,15 @@
       "estrategia": 3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "G64",
-    "genero": {
+    "name": "G64",
+    "genre": {
       "accion": 2,
       "aventura": 3,
       "rol": 2,
@@ -25,15 +25,15 @@
       "estrategia": 3,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "TES",
-    "genero": {
+    "name": "TES",
+    "genre": {
       "accion": 1,
       "aventura": -2,
       "rol": 1,
@@ -41,15 +41,15 @@
       "estrategia": -2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "Master V",
-    "genero": {
+    "name": "Master V",
+    "genre": {
       "accion": 2,
       "aventura": -2,
       "rol": 1,
@@ -57,15 +57,15 @@
       "estrategia": -2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Gameling",
-    "genero": {
+    "name": "Gameling",
+    "genre": {
       "accion": 1,
       "aventura": -2,
       "rol": 2,
@@ -73,15 +73,15 @@
       "estrategia": -3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "Vena Gear",
-    "genero": {
+    "name": "Vena Gear",
+    "genre": {
       "accion": 2,
       "aventura": 1,
       "rol": 1,
@@ -89,15 +89,15 @@
       "estrategia": -3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 1
     }
   },
   {
-    "nombre": "Vena Oasis",
-    "genero": {
+    "name": "Vena Oasis",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": 1,
@@ -105,15 +105,15 @@
       "estrategia": -3,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Super TES",
-    "genero": {
+    "name": "Super TES",
+    "genre": {
       "accion": 2,
       "aventura": 2,
       "rol": 2,
@@ -121,15 +121,15 @@
       "estrategia": -2,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 2,
       "adultos": 2
     }
   },
   {
-    "nombre": "Playsystem",
-    "genero": {
+    "name": "Playsystem",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": 3,
@@ -137,15 +137,15 @@
       "estrategia": -2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "TES64",
-    "genero": {
+    "name": "TES64",
+    "genre": {
       "accion": 2,
       "aventura": 1,
       "rol": -2,
@@ -153,15 +153,15 @@
       "estrategia": -2,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 2,
       "adultos": 2
     }
   },
   {
-    "nombre": "DreamVast",
-    "genero": {
+    "name": "DreamVast",
+    "genre": {
       "accion": 3,
       "aventura": -2,
       "rol": 1,
@@ -169,15 +169,15 @@
       "estrategia": -2,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": -1,
       "todos": 3,
       "adultos": 3
     }
   },
   {
-    "nombre": "Playsystem 2",
-    "genero": {
+    "name": "Playsystem 2",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": 3,
@@ -185,15 +185,15 @@
       "estrategia": -2,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 1
     }
   },
   {
-    "nombre": "mBox",
-    "genero": {
+    "name": "mBox",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": 2,
@@ -201,15 +201,15 @@
       "estrategia": -2,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Game Sphere",
-    "genero": {
+    "name": "Game Sphere",
+    "genre": {
       "accion": 1,
       "aventura": 1,
       "rol": -2,
@@ -217,15 +217,15 @@
       "estrategia": -2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 2,
       "adultos": 1
     }
   },
   {
-    "nombre": "GS",
-    "genero": {
+    "name": "GS",
+    "genre": {
       "accion": 2,
       "aventura": 2,
       "rol": 3,
@@ -233,15 +233,15 @@
       "estrategia": 2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 2,
       "adultos": 1
     }
   },
   {
-    "nombre": "PPS",
-    "genero": {
+    "name": "PPS",
+    "genre": {
       "accion": 3,
       "aventura": -2,
       "rol": 3,
@@ -249,15 +249,15 @@
       "estrategia": 1,
       "casual": 1
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "MBox 360",
-    "genero": {
+    "name": "MBox 360",
+    "genre": {
       "accion": 3,
       "aventura": 2,
       "rol": 3,
@@ -265,15 +265,15 @@
       "estrategia": -2,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "Nuu",
-    "genero": {
+    "name": "Nuu",
+    "genre": {
       "accion": 1,
       "aventura": -3,
       "rol": -2,
@@ -281,15 +281,15 @@
       "estrategia": -2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Playsystem 3",
-    "genero": {
+    "name": "Playsystem 3",
+    "genre": {
       "accion": 3,
       "aventura": 2,
       "rol": 2,
@@ -297,15 +297,15 @@
       "estrategia": -2,
       "casual": 1
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "grPhone",
-    "genero": {
+    "name": "grPhone",
+    "genre": {
       "accion": 1,
       "aventura": 1,
       "rol": -2,
@@ -313,15 +313,15 @@
       "estrategia": -2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 3
     }
   },
   {
-    "nombre": "grPad",
-    "genero": {
+    "name": "grPad",
+    "genre": {
       "accion": 1,
       "aventura": 2,
       "rol": -2,
@@ -329,15 +329,15 @@
       "estrategia": 2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 3
     }
   },
   {
-    "nombre": "mPad",
-    "genero": {
+    "name": "mPad",
+    "genre": {
       "accion": -2,
       "aventura": 2,
       "rol": 1,
@@ -345,15 +345,15 @@
       "estrategia": -2,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": -1,
       "todos": 2,
       "adultos": 1
     }
   },
   {
-    "nombre": "Wuu",
-    "genero": {
+    "name": "Wuu",
+    "genre": {
       "accion": 2,
       "aventura": -2,
       "rol": 1,
@@ -361,15 +361,15 @@
       "estrategia": -2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "OYA",
-    "genero": {
+    "name": "OYA",
+    "genre": {
       "accion": 2,
       "aventura": -2,
       "rol": 1,
@@ -377,15 +377,15 @@
       "estrategia": 1,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "mBox One",
-    "genero": {
+    "name": "mBox One",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": 2,
@@ -393,15 +393,15 @@
       "estrategia": -2,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": -2,
       "todos": 3,
       "adultos": 1
     }
   },
   {
-    "nombre": "Playsystem 4",
-    "genero": {
+    "name": "Playsystem 4",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": 3,
@@ -409,15 +409,15 @@
       "estrategia": -2,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "mBox Next",
-    "genero": {
+    "name": "mBox Next",
+    "genre": {
       "accion": 2,
       "aventura": 2,
       "rol": 2,
@@ -425,15 +425,15 @@
       "estrategia": -2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 1
     }
   },
   {
-    "nombre": "Playsystem 5",
-    "genero": {
+    "name": "Playsystem 5",
+    "genre": {
       "accion": 3,
       "aventura": -2,
       "rol": 2,
@@ -441,7 +441,7 @@
       "estrategia": -2,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 2

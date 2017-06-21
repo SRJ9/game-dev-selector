@@ -10,7 +10,8 @@ module.directive("paramSelector", function () {
             matchPlaceholder: '@',
             paramTitle: '@',
             paramValue: '=',
-            items: '='
+            items: '=',
+            funcEval: '&'
         },
         link: function (scope) {
             scope.setSelectedItem = function (paramValue) {

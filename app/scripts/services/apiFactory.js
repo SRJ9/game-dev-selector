@@ -3,23 +3,23 @@ angular.module("apiFactory", [])
         'use strict'
         var API = {};
 
-        API.getPublico = function () {
-            var url = '/publico_values.json';
+        API.getAudience = function () {
+            var url = '/audience_values.json';
             return $http.get(url);
         };
 
-        API.getConsola = function () {
-            var url = '/consola_values.json';
+        API.getGameSystem = function () {
+            var url = '/system_values.json';
             return $http.get(url);
         };
 
-        API.getGenero = function () {
-            var url = '/genero_values.json';
+        API.getGenre = function () {
+            var url = '/genre_values.json';
             return $http.get(url);
         };
 
-        API.getTema = function () {
-            var url = '/tema_values.json';
+        API.getTopic = function () {
+            var url = '/topic_values.json';
             return $http.get(url);
         };
 

@@ -21,43 +21,47 @@
     <div class="row">
         <div class="col-md-3 col-sm-6">
             <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
-            <h2 title="{{game_params.publico.nombre}}">Público objetivo</h2>
+            <h2 title="{{game_params.audience.name}}">Público objetivo</h2>
             <param-selector
                     match-placeholder="Elige un público objetivo de la lista..."
                     param-title="Elige un público objetivo"
-                    param-value="game_params.publico"
-                    items="publicos"
+                    param-value="game_params.audience"
+                    items="audiences"
+                    func-eval="evalAudience"
             ></param-selector>
         </div>
         <div class="col-md-3 col-sm-6">
             <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
-            <h2 title="{{game_params.consola.nombre}}">Videoconsola</h2>
+            <h2 title="{{game_params.game_system.name}}">Plataforma</h2>
             <param-selector
-                    match-placeholder="Elige una consola de la lista..."
-                    param-title="Elige una consola"
-                    param-value="game_params.consola"
-                    items="consolas"
+                    match-placeholder="Elige una plataforma de la lista..."
+                    param-title="Elige una plataforma"
+                    param-value="game_params.game_system"
+                    items="game_systems"
+                    func-eval="evalGameSystem"
             ></param-selector>
 
         </div>
         <div class="col-md-3 col-sm-6">
             <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
-            <h2 title="{{game_params.genero.nombre}}">Genero</h2>
+            <h2 title="{{game_params.genre.name}}">Genero</h2>
             <param-selector
                     match-placeholder="Elige un genero de la lista..."
                     param-title="Elige un genero"
-                    param-value="game_params.genero"
-                    items="generos"
+                    param-value="game_params.genre"
+                    items="genres"
+                    func-eval="evalGenre"
             ></param-selector>
         </div>
         <div class="col-md-3 col-sm-6">
             <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
-            <h2 title="{{game_params.tema.nombre}}">Tema</h2>
+            <h2 title="{{game_params.topic.name}}">Tema</h2>
             <param-selector
                     match-placeholder="Elige un tema de la lista..."
                     param-title="Elige un tema"
-                    param-value="game_params.tema"
-                    items="temas"
+                    param-value="game_params.topic"
+                    items="topics"
+                    func-eval="evalTopic"
             ></param-selector>
         </div>
     </div>

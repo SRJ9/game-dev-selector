@@ -1,7 +1,7 @@
 [
   {
-    "nombre": "Avión",
-    "genero": {
+    "name": "Avión",
+    "genre": {
       "accion": 3,
       "aventura": -3,
       "rol": 1,
@@ -9,15 +9,15 @@
       "estrategia": 3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Aliens",
-    "genero": {
+    "name": "Aliens",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": 3,
@@ -25,15 +25,15 @@
       "estrategia": 2,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 3
     }
   },
   {
-    "nombre": "Historia Alternativa",
-    "genero": {
+    "name": "Historia Alternativa",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": 3,
@@ -41,15 +41,15 @@
       "estrategia": 2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": -3,
       "todos": 3,
       "adultos": 3
     }
   },
   {
-    "nombre": "Negocios",
-    "genero": {
+    "name": "Negocios",
+    "genre": {
       "accion": -3,
       "aventura": 1,
       "rol": 1,
@@ -57,15 +57,15 @@
       "estrategia": 3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Ciudad",
-    "genero": {
+    "name": "Ciudad",
+    "genre": {
       "accion": -2,
       "aventura": -3,
       "rol": -2,
@@ -73,15 +73,15 @@
       "estrategia": 3,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 1
     }
   },
   {
-    "nombre": "Comedia",
-    "genero": {
+    "name": "Comedia",
+    "genre": {
       "accion": -3,
       "aventura": 3,
       "rol": 1,
@@ -89,15 +89,15 @@
       "estrategia": -3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "Cyberpunk",
-    "genero": {
+    "name": "Cyberpunk",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": 3,
@@ -105,15 +105,15 @@
       "estrategia": -2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": -2,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "Baile",
-    "genero": {
+    "name": "Baile",
+    "genre": {
       "accion": -2,
       "aventura": -3,
       "rol": -3,
@@ -121,15 +121,15 @@
       "estrategia": -3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 2,
       "adultos": 1
     }
   },
   {
-    "nombre": "Detective",
-    "genero": {
+    "name": "Detective",
+    "genre": {
       "accion": -3,
       "aventura": 3,
       "rol": 3,
@@ -137,15 +137,15 @@
       "estrategia": -3,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 1
     }
   },
   {
-    "nombre": "Mazmorras",
-    "genero": {
+    "name": "Mazmorras",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": 3,
@@ -153,15 +153,15 @@
       "estrategia": 3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 3
     }
   },
   {
-    "nombre": "Evolución",
-    "genero": {
+    "name": "Evolución",
+    "genre": {
       "accion": -2,
       "aventura": -3,
       "rol": -3,
@@ -169,15 +169,15 @@
       "estrategia": 3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Fantasía",
-    "genero": {
+    "name": "Fantasía",
+    "genre": {
       "accion": 3,
       "aventura": 3,
       "rol": 3,
@@ -185,15 +185,15 @@
       "estrategia": 3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 3,
       "adultos": 3
     }
   },
   {
-    "nombre": "Moda",
-    "genero": {
+    "name": "Moda",
+    "genre": {
       "accion": -3,
       "aventura": 1,
       "rol": 3,
@@ -201,15 +201,15 @@
       "estrategia": -3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 1,
       "adultos": 3
     }
   },
   {
-    "nombre": "Desarrollo de juegos",
-    "genero": {
+    "name": "Desarrollo de juegos",
+    "genre": {
       "accion": -3,
       "aventura": -2,
       "rol": -3,
@@ -217,15 +217,15 @@
       "estrategia": -3,
       "casual": 1
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Gobierno",
-    "genero": {
+    "name": "Gobierno",
+    "genre": {
       "accion": -3,
       "aventura": -3,
       "rol": -3,
@@ -233,15 +233,15 @@
       "estrategia": 3,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": -3,
       "todos": 3,
       "adultos": 1
     }
   },
   {
-    "nombre": "Hackers",
-    "genero": {
+    "name": "Hackers",
+    "genre": {
       "accion": -2,
       "aventura": 1,
       "rol": -2,
@@ -249,15 +249,15 @@
       "estrategia": 3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": -2,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "Historia",
-    "genero": {
+    "name": "Historia",
+    "genre": {
       "accion": 1,
       "aventura": 1,
       "rol": 1,
@@ -265,15 +265,15 @@
       "estrategia": 3,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Terror",
-    "genero": {
+    "name": "Terror",
+    "genre": {
       "accion": 3,
       "aventura": 3,
       "rol": 1,
@@ -281,15 +281,15 @@
       "estrategia": -2,
       "casual": 1
     },
-    "publico": {
+    "audience": {
       "jovenes": -3,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "Hospital",
-    "genero": {
+    "name": "Hospital",
+    "genre": {
       "accion": -3,
       "aventura": -3,
       "rol": 1,
@@ -297,15 +297,15 @@
       "estrategia": 1,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": -2,
       "todos": 3,
       "adultos": 1
     }
   },
   {
-    "nombre": "Caza",
-    "genero": {
+    "name": "Caza",
+    "genre": {
       "accion": 3,
       "aventura": 2,
       "rol": 2,
@@ -313,15 +313,15 @@
       "estrategia": -2,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Ley",
-    "genero": {
+    "name": "Ley",
+    "genre": {
       "accion": -3,
       "aventura": 3,
       "rol": 2,
@@ -329,15 +329,15 @@
       "estrategia": 2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Vida",
-    "genero": {
+    "name": "Vida",
+    "genre": {
       "accion": -3,
       "aventura": 3,
       "rol": 2,
@@ -345,15 +345,15 @@
       "estrategia": -3,
       "casual": 1
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 3,
       "adultos": 1
     }
   },
   {
-    "nombre": "Artes marciales",
-    "genero": {
+    "name": "Artes marciales",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": 3,
@@ -361,15 +361,15 @@
       "estrategia": -2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": -2,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "Medieval",
-    "genero": {
+    "name": "Medieval",
+    "genre": {
       "accion": 3,
       "aventura": 3,
       "rol": 3,
@@ -377,15 +377,15 @@
       "estrategia": 3,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Militar",
-    "genero": {
+    "name": "Militar",
+    "genre": {
       "accion": 3,
       "aventura": -3,
       "rol": 1,
@@ -393,15 +393,15 @@
       "estrategia": 3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": -2,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "Películas",
-    "genero": {
+    "name": "Películas",
+    "genre": {
       "accion": 1,
       "aventura": 1,
       "rol": -3,
@@ -409,15 +409,15 @@
       "estrategia": -3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Música",
-    "genero": {
+    "name": "Música",
+    "genre": {
       "accion": 3,
       "aventura": 2,
       "rol": -3,
@@ -425,15 +425,15 @@
       "estrategia": -3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 2,
       "adultos": 1
     }
   },
   {
-    "nombre": "Misterio",
-    "genero": {
+    "name": "Misterio",
+    "genre": {
       "accion": -3,
       "aventura": 3,
       "rol": 3,
@@ -441,15 +441,15 @@
       "estrategia": -3,
       "casual": 1
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "Ninja",
-    "genero": {
+    "name": "Ninja",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": 1,
@@ -457,15 +457,15 @@
       "estrategia": 1,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 2,
       "adultos": 2
     }
   },
   {
-    "nombre": "Piratas",
-    "genero": {
+    "name": "Piratas",
+    "genre": {
       "accion": 1,
       "aventura": 3,
       "rol": 2,
@@ -473,15 +473,15 @@
       "estrategia": -2,
       "casual": 1
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 3,
       "adultos": 1
     }
   },
   {
-    "nombre": "Post Apocalipsis",
-    "genero": {
+    "name": "Post Apocalipsis",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": 3,
@@ -489,15 +489,15 @@
       "estrategia": 2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": -3,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "Carcel",
-    "genero": {
+    "name": "Carcel",
+    "genre": {
       "accion": 3,
       "aventura": 3,
       "rol": 1,
@@ -505,15 +505,15 @@
       "estrategia": 1,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": -2,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "Carreras",
-    "genero": {
+    "name": "Carreras",
+    "genre": {
       "accion": 2,
       "aventura": -3,
       "rol": 1,
@@ -521,15 +521,15 @@
       "estrategia": -2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Ritmo",
-    "genero": {
+    "name": "Ritmo",
+    "genre": {
       "accion": 3,
       "aventura": -2,
       "rol": -2,
@@ -537,15 +537,15 @@
       "estrategia": -3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 2,
       "adultos": 1
     }
   },
   {
-    "nombre": "Romance",
-    "genero": {
+    "name": "Romance",
+    "genre": {
       "accion": -3,
       "aventura": 3,
       "rol": 1,
@@ -553,15 +553,15 @@
       "estrategia": -3,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 3
     }
   },
   {
-    "nombre": "Escuela",
-    "genero": {
+    "name": "Escuela",
+    "genre": {
       "accion": 1,
       "aventura": 3,
       "rol": 3,
@@ -569,15 +569,15 @@
       "estrategia": 3,
       "casual": 1
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 2,
       "adultos": 2
     }
   },
   {
-    "nombre": "Ciencia ficción",
-    "genero": {
+    "name": "Ciencia ficción",
+    "genre": {
       "accion": 3,
       "aventura": 3,
       "rol": 3,
@@ -585,15 +585,15 @@
       "estrategia": 3,
       "casual": 1
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 3
     }
   },
   {
-    "nombre": "Espacio",
-    "genero": {
+    "name": "Espacio",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": -3,
@@ -601,15 +601,15 @@
       "estrategia": 3,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 3
     }
   },
   {
-    "nombre": "Deportes",
-    "genero": {
+    "name": "Deportes",
+    "genre": {
       "accion": 3,
       "aventura": -3,
       "rol": -3,
@@ -617,15 +617,15 @@
       "estrategia": -2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 3,
       "adultos": 1
     }
   },
   {
-    "nombre": "Espías",
-    "genero": {
+    "name": "Espías",
+    "genre": {
       "accion": 3,
       "aventura": 3,
       "rol": 3,
@@ -633,15 +633,15 @@
       "estrategia": -2,
       "casual": 1
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "Superheroes",
-    "genero": {
+    "name": "Superheroes",
+    "genre": {
       "accion": 3,
       "aventura": -3,
       "rol": 2,
@@ -649,15 +649,15 @@
       "estrategia": -3,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 3,
       "adultos": 3
     }
   },
   {
-    "nombre": "Cirugía",
-    "genero": {
+    "name": "Cirugía",
+    "genre": {
       "accion": 1,
       "aventura": -2,
       "rol": -3,
@@ -665,15 +665,15 @@
       "estrategia": -2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Viajes en el tiempo",
-    "genero": {
+    "name": "Viajes en el tiempo",
+    "genre": {
       "accion": 2,
       "aventura": 3,
       "rol": 3,
@@ -681,15 +681,15 @@
       "estrategia": -3,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 1
     }
   },
   {
-    "nombre": "Transporte",
-    "genero": {
+    "name": "Transporte",
+    "genre": {
       "accion": -3,
       "aventura": -3,
       "rol": -3,
@@ -697,15 +697,15 @@
       "estrategia": 3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "OVNI",
-    "genero": {
+    "name": "OVNI",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": -3,
@@ -713,15 +713,15 @@
       "estrategia": 3,
       "casual": 1
     },
-    "publico": {
+    "audience": {
       "jovenes": 1,
       "todos": 3,
       "adultos": 2
     }
   },
   {
-    "nombre": "Vampiros",
-    "genero": {
+    "name": "Vampiros",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": 3,
@@ -729,15 +729,15 @@
       "estrategia": -3,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": -2,
       "todos": 3,
       "adultos": 3
     }
   },
   {
-    "nombre": "Mascotas",
-    "genero": {
+    "name": "Mascotas",
+    "genre": {
       "accion": -3,
       "aventura": 1,
       "rol": 2,
@@ -745,15 +745,15 @@
       "estrategia": 2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 1,
       "adultos": 2
     }
   },
   {
-    "nombre": "Vocabulario",
-    "genero": {
+    "name": "Vocabulario",
+    "genre": {
       "accion": -3,
       "aventura": -3,
       "rol": -3,
@@ -761,15 +761,15 @@
       "estrategia": 3,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 3,
       "adultos": 3
     }
   },
   {
-    "nombre": "Hombres lobo",
-    "genero": {
+    "name": "Hombres lobo",
+    "genre": {
       "accion": 3,
       "aventura": 1,
       "rol": 3,
@@ -777,15 +777,15 @@
       "estrategia": -3,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": -2,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "Salvaje Oeste",
-    "genero": {
+    "name": "Salvaje Oeste",
+    "genre": {
       "accion": 2,
       "aventura": -2,
       "rol": 3,
@@ -793,15 +793,15 @@
       "estrategia": -3,
       "casual": 2
     },
-    "publico": {
+    "audience": {
       "jovenes": 3,
       "todos": 2,
       "adultos": 3
     }
   },
   {
-    "nombre": "Zombies",
-    "genero": {
+    "name": "Zombies",
+    "genre": {
       "accion": 3,
       "aventura": 2,
       "rol": -3,
@@ -809,7 +809,7 @@
       "estrategia": 2,
       "casual": 3
     },
-    "publico": {
+    "audience": {
       "jovenes": 2,
       "todos": 1,
       "adultos": 3

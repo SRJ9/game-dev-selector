@@ -1,54 +1,132 @@
+var GameParamScore = (function () {
+    'use strict'
+    function GameParamScore() {
+
+    }
+
+    GameParamScore.prototype = Array.prototype;
+
+    GameParamScore.prototype.pushIfNotNull = function (value) {
+        if (value !== null) {
+            this.push(value);
+        }
+    };
+
+    GameParamScore.prototype.getMin = function(){
+        var min_value = Math.min.apply(null, this);
+        if(min_value === Infinity) {
+            min_value = 0;
+        }
+        return min_value;
+    };
+    return GameParamScore;
+}());
+
 var app = angular.module("gameDevApp", ['apiFactory', 'ui.select', 'ngSanitize', 'selectDirective']);
 app.controller("GameDevController", function ($scope, API) {
     'use strict'
     $scope.game_params = {};
-    API.getPublico().then(function (response) {
-        $scope.publicos = response.data;
+
+
+    var gameparamscore = new GameParamScore();
+    gameparamscore.pushIfNotNull(1);
+
+
+    API.getAudience().then(function (response) {
+        $scope.audiences = response.data;
     }, function (err) {
         $scope.err = err;
     });
 
-    API.getConsola().then(function (response) {
-        $scope.consolas = response.data;
+    API.getGameSystem().then(function (response) {
+        $scope.game_systems = response.data;
     }, function (err) {
         $scope.err = err;
     });
 
-    API.getGenero().then(function (response) {
-        $scope.generos = response.data;
+    API.getGenre().then(function (response) {
+        $scope.genres = response.data;
     }, function (err) {
         $scope.err = err;
     });
 
-    API.getTema().then(function (response) {
-        $scope.temas = response.data;
+    API.getTopic().then(function (response) {
+        $scope.topics = response.data;
     }, function (err) {
         $scope.err = err;
     });
 
-    $scope.getPublicoConsola = function (consola) {
-        if ($scope.game_params.publico) {
-            var publico = $scope.game_params.publico.nombre.toLowerCase();
-            return consola.publico[publico];
+
+    $scope.getGameSystemByGenre = function (game_system, genre) {
+        game_system = game_system || $scope.game_params.game_system;
+        genre = genre || $scope.game_params.genre;
+        if (game_system && genre) {
+            return game_system.genre[genre.name.toLowerCase()];
         }
         return null;
-
     };
 
-    $scope.getConsolaGenero = function (genero) {
-        if ($scope.game_params.consola) {
-            return $scope.game_params.consola.genero[genero.nombre.toLowerCase()];
+    $scope.getTopicByGenre = function (topic, genre) {
+        topic = topic || $scope.game_params.topic;
+        genre = genre || $scope.game_params.genre;
+        if (topic && genre) {
+            return topic.genre[genre.name.toLowerCase()];
         }
         return null;
-
     };
 
-    $scope.getGeneroTema = function (tema) {
-        if ($scope.game_params.genero) {
-            var genero = $scope.game_params.genero.nombre.toLowerCase();
-            return tema.genero[genero];
+    $scope.getGameSystemByAudience = function (game_system, audience) {
+        game_system = game_system || $scope.game_params.game_system;
+        audience = audience || $scope.game_params.audience;
+        if (game_system && audience) {
+            return game_system.audience[audience.name.toLowerCase()];
         }
         return null;
-
     };
+
+    $scope.getTopicByAudience = function (topic, audience) {
+        topic = topic || $scope.game_params.topic;
+        audience = audience || $scope.game_params.audience;
+        if (topic && audience) {
+            return topic.audience[audience.name.toLowerCase()];
+        }
+        return null;
+    };
+
+    $scope.evalAudience = function (audience) {
+        var values = new GameParamScore();
+        values.pushIfNotNull($scope.getGameSystemByAudience(null, audience));
+        values.pushIfNotNull($scope.getTopicByAudience(null, audience));
+        return values.getMin();
+    };
+
+    $scope.evalGameSystem = function (game_system) {
+        var values = new GameParamScore();
+        values.pushIfNotNull($scope.getGameSystemByAudience(game_system, null));
+        values.pushIfNotNull($scope.getGameSystemByGenre(game_system, null));
+        return values.getMin();
+    };
+
+    $scope.evalGenre = function (genre) {
+        var values = new GameParamScore();
+        values.pushIfNotNull($scope.getTopicByGenre(null, genre));
+        values.pushIfNotNull($scope.getGameSystemByGenre(null, genre));
+        return values.getMin();
+    };
+
+
+    $scope.evalTopic = function (topic) {
+        var values = new GameParamScore();
+        values.pushIfNotNull($scope.getTopicByGenre(topic, null));
+        values.pushIfNotNull($scope.getTopicByAudience(topic, null));
+        return values.getMin();
+    };
+
+
+    $scope.evalFullGame = function () {
+        $scope.evalAudience();
+        $scope.evalGameSystem();
+        $scope.evalGenre();
+        $scope.evalTopic();
+    }
 });

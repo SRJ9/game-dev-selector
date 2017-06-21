@@ -1,9 +1,11 @@
 <div ng-controller="ParamSelectorController">
 <ui-select ng-model="scope.paramValue" theme="selectize" title="{{paramTitle}}">
-    <ui-select-match placeholder="{{matchPlaceholder}}">{{$select.selected.nombre}}
+    <ui-select-match placeholder="{{matchPlaceholder}}">{{$select.selected.name}}
+        <small class="badge" ng-bind-html="funcEval()($select.selected)"></small>
     </ui-select-match>
     <ui-select-choices repeat="item in items | filter: $select.search">
-        <div ng-bind-html="item.nombre | highlight: $select.search"></div>
+        <span ng-bind-html="item.name | highlight: $select.search"></span>
+        <small class="badge" ng-bind-html="funcEval()(item)"></small>
     </ui-select-choices>
 </ui-select>
 </div>
