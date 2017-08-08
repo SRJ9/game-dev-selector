@@ -8,4 +8,9 @@
         <small class="badge" ng-bind-html="funcEval()(item)"></small>
     </ui-select-choices>
 </ui-select>
+    <ul>
+        <li ng-repeat="item in items" ng-show="hasHighScore(item)" class="high-scores" ng-click="scope.paramValue = item">
+            <span class="badge">{{funcEval()(item)}}</span> {{ item.name}}
+        </li>
+    </ul>
 </div>

@@ -16,6 +16,9 @@ module.directive("paramSelector", function () {
         link: function (scope) {
             scope.setSelectedItem = function (paramValue) {
                 scope.paramValue = paramValue;
+            };
+            scope.hasHighScore = function(item){
+                return (scope.funcEval()(item) === 3);
             }
         }
 
