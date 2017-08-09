@@ -9,12 +9,16 @@
     <link href="bower_components/selectize/dist/css/selectize.css" rel="stylesheet"/>
     <link href="bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <style>
+        ul {
+            padding-left: 0;
+        }
         li.high-scores{
             list-style: none;
-            background-color: yellow;
+            background-color: #ffff66;
             font-size: 0.8em;
             border: 1px dashed #f2f2f2;
             cursor: pointer;
+            padding-left: 0;
         }
     </style>
 </head>
@@ -30,8 +34,10 @@
     </nav>
     <div class="row">
         <div class="col-md-3 col-sm-6">
-            <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
-            <h2 title="{{game_params.audience.name}}">Público objetivo</h2>
+
+            <h2 title="{{game_params.audience.name}}">
+                <i class="fa fa-gamepad fa-2x" aria-hidden="true"></i>
+                <small>Público objetivo</small></h2>
             <param-selector
                     match-placeholder="Elige un público objetivo de la lista..."
                     param-title="Elige un público objetivo"
@@ -41,8 +47,10 @@
             ></param-selector>
         </div>
         <div class="col-md-3 col-sm-6">
-            <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
-            <h2 title="{{game_params.game_system.name}}">Plataforma</h2>
+
+            <h2 title="{{game_params.game_system.name}}">
+                <i class="fa fa-gamepad fa-2x" aria-hidden="true"></i>
+                <small>Plataforma</small></h2>
             <param-selector
                     match-placeholder="Elige una plataforma de la lista..."
                     param-title="Elige una plataforma"
@@ -53,8 +61,10 @@
 
         </div>
         <div class="col-md-3 col-sm-6">
-            <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
-            <h2 title="{{game_params.genre.name}}">Genero</h2>
+            <h2 title="{{game_params.genre.name}}">
+                <i class="fa fa-gamepad fa-2x" aria-hidden="true"></i>
+                <small>Genero</small>
+            </h2>
             <param-selector
                     match-placeholder="Elige un genero de la lista..."
                     param-title="Elige un genero"
@@ -64,8 +74,10 @@
             ></param-selector>
         </div>
         <div class="col-md-3 col-sm-6">
-            <i class="fa fa-gamepad fa-5x" aria-hidden="true"></i>
-            <h2 title="{{game_params.topic.name}}">Tema</h2>
+            <h2 title="{{game_params.topic.name}}">
+                <i class="fa fa-gamepad fa-2x" aria-hidden="true"></i>
+                <small>Tema</small>
+            </h2>
             <param-selector
                     match-placeholder="Elige un tema de la lista..."
                     param-title="Elige un tema"
