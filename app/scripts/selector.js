@@ -32,25 +32,25 @@ app.controller("GameDevController", function ($scope, API) {
     gameparamscore.pushIfNotNull(1);
 
 
-    API.getAudience().then(function (response) {
+    API.getItems('audience').then(function (response) {
         $scope.audiences = response.data;
     }, function (err) {
         $scope.err = err;
     });
 
-    API.getGameSystem().then(function (response) {
+    API.getItems('game_system').then(function (response) {
         $scope.game_systems = response.data;
     }, function (err) {
         $scope.err = err;
     });
 
-    API.getGenre().then(function (response) {
+    API.getItems('genre').then(function (response) {
         $scope.genres = response.data;
     }, function (err) {
         $scope.err = err;
     });
 
-    API.getTopic().then(function (response) {
+    API.getItems('topic').then(function (response) {
         $scope.topics = response.data;
     }, function (err) {
         $scope.err = err;

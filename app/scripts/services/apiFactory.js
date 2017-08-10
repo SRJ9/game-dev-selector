@@ -3,25 +3,18 @@ angular.module("apiFactory", [])
         'use strict'
         var API = {};
 
-        API.getAudience = function () {
-            var url = '/audience_values.json';
-            return $http.get(url);
-        };
-
-        API.getGameSystem = function () {
-            var url = '/system_values.json';
-            return $http.get(url);
-        };
-
-        API.getGenre = function () {
-            var url = '/genre_values.json';
-            return $http.get(url);
-        };
-
-        API.getTopic = function () {
-            var url = '/topic_values.json';
-            return $http.get(url);
-        };
+        API.getItems = function(game_param){
+            var param_dict = {
+                'audience': '/audience_values.json',
+                'game_system': '/system_values.json',
+                'genre': '/genre_values.json',
+                'topic': '/topic_values.json'
+            };
+            if(game_param in param_dict){
+                return $http.get(param_dict[game_param]);
+            }
+            return null;
+        }
 
         return API;
 

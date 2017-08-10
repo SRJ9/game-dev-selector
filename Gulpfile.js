@@ -20,7 +20,7 @@ gulp.task('serve', ['styles'], function(){
 
 
 	gulp.watch(SASS_PATTERN, ['styles']);
-	gulp.watch('app/**/*.js').on('change', browserSync.stream);
+	gulp.watch('app/**/**/*.js').on('change', browserSync.reload);
 	gulp.watch('app/**/*.html').on('change', browserSync.reload);
 })
 
